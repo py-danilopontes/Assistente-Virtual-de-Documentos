@@ -1,4 +1,4 @@
-# Assistente Virtual de Documentos com IA 📄👩🏻‍💻
+# Assistente Virtual de Documentos com IA 👩🏻‍💻
 
 ![image](https://github.com/user-attachments/assets/1e0531dc-89e8-405e-a264-dfef82a7b431)
 
