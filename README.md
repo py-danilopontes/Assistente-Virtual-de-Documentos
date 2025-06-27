@@ -1,8 +1,4 @@
 # Assistente Virtual de Documentos com IA 👩🏻‍💻
-
-![image](https://github.com/user-attachments/assets/1e0531dc-89e8-405e-a264-dfef82a7b431)
-
-
 Aplicação web para processamento e consulta inteligente de documentos PDF utilizando técnicas de NLP e armazenamento vetorial, o usuário terá a opção de anexar os seus arquivos que serão armazenados no banco de dados e através disso poderá perguntar ao Assistente Virtual (fazer resumos, tirar dúvidas) sobre aquele material que ele anexou.
 
 ## Funcionalidades Principais 🎯
@@ -16,3 +12,12 @@ Aplicação web para processamento e consulta inteligente de documentos PDF util
 ## Pré-requisitos 📝
 - Python 3.10+
 - Ollama instalado e configurado localmente
+  
+## Dependências Principais ⚒️
+langchain & langchain_chroma: Processamento documental e gestão de cadeias
+huggingface-hub: Modelos de embeddings
+streamlit: Interface web
+ollama: Integração com modelos LLM locais
+
+## Conclusão 📌
+![image](https://github.com/user-attachments/assets/1e0531dc-89e8-405e-a264-dfef82a7b431)
