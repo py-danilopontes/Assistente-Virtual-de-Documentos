@@ -1,7 +1,25 @@
 # Assistente Virtual de Documentos com IA 👩🏻‍💻
 Aplicação web para processamento e consulta inteligente de documentos PDF utilizando técnicas de NLP e armazenamento vetorial, o usuário terá a opção de anexar os seus arquivos que serão armazenados no banco de dados e através disso poderá perguntar ao Assistente Virtual (fazer resumos, tirar dúvidas) sobre aquele material que ele anexou.
 
-## Funcionalidades Principais 🎯
+##  Público Alvo 🎯
+**Público Técnicoe/Corporativo:**
+- Equipes de TI e desenvolvimento que necessitam integrar processamento documental em fluxos de trabalho
+- Startups de LegalTech/RegTech para análise automatizada de contratos e regulamentos
+**Setor Educacional:**
+- Instituições de ensino para análise de produções acadêmicas
+- Pesquisadores que trabalham com grandes volumes de artigos científicos
+**Área Jurídica:**
+- Escritórios de advocacia para consulta rápida em processos judiciais digitalizados
+- Departamentos jurídicos corporativos analisando cláusulas contratuais
+**Área Agrícola:**
+- Análise de relatórios técnicos de solo e cultivos
+- Consulta rápida a normas de segurança agrícola
+**Engenharias:**
+- Gerenciamento de manuais técnicos de equipamentos
+- Análise de normas técnicas (ABNT, ISO)
+- Revisão de documentação de obras e licitações
+
+## Funcionalidades Principais ⚙️
 - **Upload múltiplo de PDFs** para criação de base de conhecimento
 - **Processamento automático** de documentos com divisão inteligente de conteúdo
 - **Armazenamento vetorial** usando ChromaDB e embeddings da Hugging Face
