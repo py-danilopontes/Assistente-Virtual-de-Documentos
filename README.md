@@ -1,5 +1,8 @@
 # Assistente Virtual de Documentos com IA 📄👩🏻‍💻
 
+![image](https://github.com/user-attachments/assets/1e0531dc-89e8-405e-a264-dfef82a7b431)
+
+
 Aplicação web para processamento e consulta inteligente de documentos PDF utilizando técnicas de NLP e armazenamento vetorial, o usuário terá a opção de anexar os seus arquivos que serão armazenados no banco de dados e através disso poderá perguntar ao Assistente Virtual (fazer resumos, tirar dúvidas) sobre aquele material que ele anexou.
 
 ## Funcionalidades Principais 🎯
