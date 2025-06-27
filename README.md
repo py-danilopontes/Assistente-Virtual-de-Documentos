@@ -5,15 +5,19 @@ Aplicação web para processamento e consulta inteligente de documentos PDF util
 **Público Técnicoe/Corporativo:**
 - Equipes de TI e desenvolvimento que necessitam integrar processamento documental em fluxos de trabalho
 - Startups de LegalTech/RegTech para análise automatizada de contratos e regulamentos
+ 
 **Setor Educacional:**
 - Instituições de ensino para análise de produções acadêmicas
 - Pesquisadores que trabalham com grandes volumes de artigos científicos
+ 
 **Área Jurídica:**
 - Escritórios de advocacia para consulta rápida em processos judiciais digitalizados
 - Departamentos jurídicos corporativos analisando cláusulas contratuais
+ 
 **Área Agrícola:**
 - Análise de relatórios técnicos de solo e cultivos
 - Consulta rápida a normas de segurança agrícola
+
 **Engenharias:**
 - Gerenciamento de manuais técnicos de equipamentos
 - Análise de normas técnicas (ABNT, ISO)
