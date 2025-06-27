@@ -10,7 +10,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from langchain_ollama.llms import OllamaLLM
 
-api_key = os.environ.get("GROQ_API_KEY")
 embedding_id = "sentence-transformers/all-MiniLM-L6-v2"
 embedding = HuggingFaceEmbeddings(model_name=embedding_id)
 # Variável para criação do bando de dados vetorizado que será alimentado de acordo com os arquivos enviados.
@@ -54,17 +53,11 @@ def add_to_vector_store(chunks, vector_store=None):
 
 def ask_question(model, query, vector_store):
     # DEFINIÇÃO DO MODELO
-    # llm = ChatOpenAI(base_url="https://api.groq.com/openai/v1", api_key=api_key, model=selected_model)
     llm = OllamaLLM(model="llama3.2:3b")
     retriever = vector_store.as_retriever()
     system_prompt = """
-    Você é uma assistente virtual de TI chamada Aurora.
+    Você é uma assistente virtual.
     Você sempre irá respondar no idioma português e de forma formal e descontraída.
-    Use o contexto para responder as perguntas.
-    Se não encontrar uma resposta no contexto.
-    Explique que não há informações disponíveis.
-    Não deve buscar as informações que não contenha no contexto.
-    Responda em formato de markdown e com visualizações elaboradas e interativas
     Contexto: {context}"""
     # Adicionando as mensagem do usuário ou da IA com a estrutura abaixo
     messages = [("system", system_prompt)]
@@ -89,7 +82,7 @@ def ask_question(model, query, vector_store):
 vector_store = load_existing_vector_store()
 
 st.set_page_config(
-    page_title="ChatGOD",
+    page_title="Assistente Virtual",
     page_icon="📄",
 )
 st.header(
@@ -114,7 +107,7 @@ with st.sidebar:
             )
 
     model_option = [
-        "llama3.2:3b",
+        "llama32:3b",
     ]
     selected_model = st.sidebar.selectbox(
         label="Selecione o Modelo de IA", options=model_option
